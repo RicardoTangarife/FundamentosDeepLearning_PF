@@ -3,6 +3,8 @@
 For the final project of the Fundamentals of Deep Learning course, we propose to develop initial machine learning models to support our master's research work, which is involved in a project that aims to support the field of public safety, specifically through acoustic and visual signals.
 Thus, we generate two models, one for the classification of two sound events and another one for the detection of fights through videos, which support the field of public safety.
 
+A descriptive video of the project can be found at: https://youtu.be/f1YiQp1GbhA
+
 # Sound Classification
 
 To classify sound events, a public dataset of urban acoustic events named UrbanSound8k was selected. This dataset contains 10 different classes of sounds from which 2 of interest for citizen security were chosen, namely the sound of gunshots (gun_shot) and the sound of sirens (siren).
