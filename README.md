@@ -52,9 +52,11 @@ The classification of the selected sound events is performed through the noteboo
 In the notebook 03 - VideosClassificationInceptionV3. ipynb, we implemented the extraction of video features for each of the frames using the trained model InceptionV3, once the features of the frames were extracted we built a model based on two recurrent GRU layers and a dense layer, with this model we did not achieve a training of the model with good results, the predictions were still very random so we built the second version for the video classifier, now with the notebook named 02 - VideosClassificationResNet50.ipynb with which we obtained better results.
 
 However, training models for video classification requires a lot of computational power and available memory space, factors that were not available on the personal computer with which we ran the models, so we performed few epochs of model training, leading to low classification accuracies, as shown in the image below.
+![image](https://user-images.githubusercontent.com/36963665/172986024-92b468c7-d91f-4a02-8963-3f93a9f012c5.png)
 
 
 The prediction was performed in such a way that it allows to identify using the frames of each video if it is part of one of the classes or another, once the class is identified, the frame is labeled and the label is added visually to the video. From these labeled frames a new visually labeled video is generated with the corresponding prediction according to the predicted frames.  A new video labeled according to the corresponding class is delivered as output. A screenshot of a frame of the labeled output video is as follows.
+![image](https://user-images.githubusercontent.com/36963665/172986087-9c8866aa-b63f-41d9-a31d-b0398ff123ba.png)
 
 
 
@@ -64,11 +66,11 @@ UBI-Fights is a large-scale dataset of 80 hours of fully annotated frame-level v
 
 The dataset has the following annotations:  
 
-Fight: F_id_environment_camera_color.mp4 
-Normal: N_id_environment_camera_color.mp4 
-Environment: Indoor (0) / Outdoor (1); 
-Camera: Fixed (0) / Rotated (1) / Movable (2); 
-Color: RGB (0) / Grayscale (1); 
+Fight: F_id_environment_camera_color.mp4<br> 
+Normal: N_id_environment_camera_color.mp4<br>
+Environment: Indoor (0) / Outdoor (1)<br> 
+Camera: Fixed (0) / Rotated (1) / Movable (2)<br> 
+Color: RGB (0) / Grayscale (1)<br> 
 
 To access and download this dataset you should go to the official contributors page hosted at the following url: 
 http://socia-lab.di.ubi.pt/EventDetection/ 
