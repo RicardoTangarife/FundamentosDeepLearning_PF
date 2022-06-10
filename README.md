@@ -77,4 +77,10 @@ Color: RGB (0) / Grayscale (1)<br>
 To access and download this dataset you should go to the official contributors page hosted at the following url: 
 http://socia-lab.di.ubi.pt/EventDetection/ 
 
+### NOTE:
+
+In order to replicate in Google Colaboratory the notebooks  
+"01-SoundClassification.ipynb", <br>
+"02 - VideosClassificationResNet50.ipynb" and <br>
+"03 - VideosClassificationInceptionV3.ipynb", the relative paths where the databases are added must be taken into account for a correct execution. 
 
